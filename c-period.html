@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+		.latkes{
+			width:100px;
+			height:100px;
+			background-image:url("octopus.png");
+/*			background-color:blue;
+*/			background-size:contain;
+			background-repeat:no-repeat;
+		};
+
+	</style>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		function latkes () {
+			var latke = document.createElement("div");
+			document.body.appendChild(latke);
+			latke.classList.add("latkes");
+
+
+		};
+
+		setInterval(latkes, 1000)
+	</script>
+
+</body>
+</html>

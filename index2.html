@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots&display=swap" rel="stylesheet">
+    <style type="text/css">
+
+       #image0{
+            background-color:blue;
+        }
+
+         /*
+
+         #image2{
+            background-image:url(./imgs/salmon.png);
+        }
+
+        #image3{
+            background-image:url(./imgs/humans1.png);
+        }
+
+         #image4{
+            background-image:url(./imgs/wolf1.png);
+        }
+
+        #image5{
+            background-image:url(./imgs/wolf3.png);
+        }*/
+
+       /* #image6{
+            background-image:url(./imgs/puffin1.png);
+        }
+
+         #image7{
+            background-image:url(./imgs/polarBear1.png);
+        }
+
+        #image8{
+            background-image:url(./imgs/polarBear3.png);
+        }
+
+        #image9{
+            background-image:url(./imgs/pineBeetle1.png);
+        }
+
+         #image10{
+            background-image:url(./imgs/ringedSeal1.png);
+        }
+
+          #image11{
+            background-image:url(./imgs/rabbit1.png);
+        }
+
+          #image12{
+            background-image:url(./imgs/scallop1.png);
+        }
+
+         #image13{
+            background-image:url(./imgs/whale1.png);
+        }
+
+        #image14{
+            background-image:url(./imgs/krill1.png);
+        }
+
+         #image15{
+            background-image:url(./imgs/gooseBarnacle1.png);
+        }
+
+        #image16{
+            background-image:url(./imgs/nyHuman1.png);
+        }
+
+        #image17{
+            background-image:url(./imgs/penguin1.png);
+        }
+
+        #image18{
+            background-image:url(./imgs/bird1.png);
+        }
+
+        #image19{
+            background-image:url(./imgs/mussel1.png);
+        }
+  #image20{
+            background-image:url(./imgs/newt1.png);
+        }
+
+          #image21{
+            background-image:url(./imgs/octopus1.png);
+        }
+#image21{
+            background-image:url(./imgs/starCoral1.png);
+        }
+/*#image22{
+            background-image:url(./imgs/wrights-sportive-lemur.png);
+        }
+
+        #image23{
+            background-image:url(./imgs/eel1.png);
+        }
+*/
+
+    body {
+        margin: 0;
+        background-color: black;
+    }
+
+    .header {
+        animation-name:changeSize;
+        width:300px;
+        height:300px;
+        background-image:url(./imgs/earth.png);
+        background-size:cover;
+        background-repeat:no-repeat;
+            width: 800px;
+        height: 800px;
+        position:absolute;
+        left: 300px;
+                background-repeat: no-repeat;
+        animation-duration:2s;
+        animation-delay:1s;
+        animation-iteration-count: infinite;
+        background-position:center;
+
+
+    }
+
+    @keyframes changeSize {
+
+        10%{
+            width:350px;
+            height:350px;
+        }
+
+         20%{
+            width:300px;
+            height:300px;
+        }
+
+
+         80%{width:350px;
+            height:350px;}
+
+          100%{width:300px;
+            height:300px;}
+    }
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <audio loop allow="autoplay" id="heartbeat" src="heartbeat.m4a"></audio>
+    
+
+
+    <div id='earth' class="header"></div>
+
+
+    
+    <script type="text/javascript">
+    var heartbeat = document.getElementById("heartbeat");
+    var earth = document.getElementById("earth");
+
+
+    function makeImage(i) {
+      
+
+        var image = document.createElement("div")
+        document.body.appendChild(image);
+
+        image.style.transition = "1s";
+        image.style.backgroundImage = "url(" + i + "a.png)";
+        image.style.backgroundSize = "contain";
+        image.style.backgroundRepeat = "no-repeat";
+        image.id="image"+i;
+        image.style.width = "300px";
+                image.style.height = "300px";
+
+
+
+
+        // image.style.backgroundColor = 'rgb(' + Math.random() * 255 + "," + Math.random() * 255 + "," + Math.random() * 255 + ")";
+        image.style.display = "inline-block";
+        image.style.position = "relative";
+        // image.style.backgroundColor="red";
+                image.style.margin="5px";
+
+
+        function rotate() {
+            image.style.transform = "rotate(" + Math.round(Math.random() * Math.random() * 90) + "deg)";
+          
+
+        };
+
+        function firstImage () {
+            image.style.backgroundImage = "./imgs/0a.png";
+                        console.log("first image?")
+
+
+        };
+
+         function secondImage () {
+            image.style.backgroundImage = "url(./imgs/0b.png)";
+            console.log("second image?");
+
+        };
+
+        setInterval(rotate, 2000);
+
+        // setInterval(firstImage, 1000);
+
+        // setInterval(secondImage, 2000);
+
+
+
+
+        // function setSize() {
+        //     image.style.width = Math.round(Math.random() * 400) + "px";
+        //     image.style.height = image.style.width;
+        // }
+
+
+        // setInterval(setPosition, 3000);
+        // setInterval(changeOpacity, 300);
+        
+
+    };
+
+   
+
+
+
+
+
+    document.addEventListener("click", function() {
+        heartbeat.play();
+        earth.classList.remove("header");
+        for (var i = 0; i < 30; i = i + 1) { makeImage(i) }
+
+
+
+    });
+    </script>
+</body>
+
+</html>
