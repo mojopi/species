@@ -464,8 +464,8 @@ var bigArray = [
 
     {
         name: "Wrights Sportive Lemur",
-        presentPictureUrl: "wrightsSportiveLemur2/wrightsSportiveLemur1.jpg",
-        absentPictureUrl: "wrightsSportiveLemur2/wrightsSportiveLemur2.jpg",
+        presentPictureUrl: "wrightsSportiveLemur2/wrightsSportiveLemur1.png",
+        absentPictureUrl: "wrightsSportiveLemur2/wrightsSportiveLemur2.png",
         audioUrl: "wrightsSportiveLemur2/wrightsSportiveLemur.wav",
     },
 
