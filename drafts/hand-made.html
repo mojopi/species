@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Beth+Ellen|Homemade+Apple|Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <title></title>
+    <style>
+
+    	body{
+    		padding-top:300px;
+    		margin:0;
+    	background-color:black;
+/*        background-image: url(./imgs/black4.png);
+*/        background-size: cover;
+        background-repeat: repeat;
+   }
+
+
+    .images {
+    	margin:10px;
+        background-size: contain;
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation-duration:30s;
+        animation-iteaseeration-count: infinite;
+        transition:  5s;
+        display:inline-block;
+        position:relative;
+
+
+
+    }
+
+    .speciesNames {
+        color: white;
+        height:50px;
+        width: 100%;
+        font-size: 24px;
+        font-family: courier;
+     position: relative;
+        top: 90%;
+        text-align: center;
+        height: 80px;
+
+
+    }
+
+    #image0 {
+        animation-name: gooseBarnacle;
+    }
+
+    @keyframes gooseBarnacle {
+        0% {
+            background-image: url(./imgs/gooseBarnacle1.png);
+        }
+
+        20% {
+            background-image: url(./imgs/gooseBarnacle1.png);
+        }
+
+        50% {
+            background-image: url(./imgs/gooseBarnacle2.png);
+        }
+
+        90% {
+            background-image: url(./imgs/gooseBarnacle2.png);
+        }
+
+        100% {
+            background-image: url(./imgs/gooseBarnacle1.png);
+        }
+
+    }
+
+    #image1 {
+   
+        animation-name: cuttlefish;
+
+    }
+
+    @keyframes cuttlefish {
+        0% {
+            background-image: url(./imgs/cuttlefish1.png);
+        }
+
+        20% {
+            background-image: url(./imgs/cuttlefish1.png);
+        }
+
+        50% {
+            background-image: url(./imgs/cuttlefish2.png);
+        }
+
+        90% {
+            background-image: url(./imgs/cuttlefish2.png);
+        }
+
+        100% {
+            background-image: url(./imgs/cuttlefish1.png);
+        }
+
+    }
+
+
+
+
+     #image2 {
+        animation-name: moose;
+
+    }
+
+    @keyframes moose {
+        0% {
+            background-image: url(./imgs/moose1.png);
+        }
+
+        20% {
+            background-image: url(./imgs/moose1.png);
+        }
+
+        50% {
+            background-image: url(./imgs/moose2.png);
+        }
+
+        90% {
+            background-image: url(./imgs/moose2.png);
+        }
+
+        100% {
+            background-image: url(./imgs/moose1.png);
+        }
+
+    }
+
+
+
+      #image3 {
+        animation-name: humansA;
+
+    }
+
+    @keyframes humansA {
+        0% {
+            background-image: url(./imgs/humans1.png);
+        }
+
+        20% {
+            background-image: url(./imgs/humans1.png);
+        }
+
+        50% {
+            background-image: url(./imgs/humans2.png);
+        }
+
+        90% {
+            background-image: url(./imgs/humans2.png);
+        }
+
+        100% {
+            background-image: url(./imgs/humans1.png);
+        }
+
+    }
+
+        #image4 {
+        animation-name: honeyEater;
+
+    }
+
+    @keyframes honeyEater {
+        0% {
+            background-image: url(./imgs/honeyEater1.png);
+        }
+
+        20% {
+            background-image: url(./imgs/honeyEater1.png);
+        }
+
+        50% {
+            background-image: url(./imgs/honeyEater2.png);
+        }
+
+        90% {
+            background-image: url(./imgs/honeyEater2.png);
+        }
+
+        100% {
+            background-image: url(./imgs/honeyEater1.png);
+        }
+
+    }
+
+     #image5 {
+        animation-name: elephant;
+
+    }
+
+    @keyframes elephant {
+        0% {
+            background-image: url(./imgs/elephant1.png);
+        }
+
+        20% {
+            background-image: url(./imgs/elephant1.png);
+        }
+
+        50% {
+            background-image: url(./imgs/elephant2.png);
+        }
+
+        90% {
+            background-image: url(./imgs/elephant2.png);
+        }
+
+        100% {
+            background-image: url(./imgs/elephant1.png);
+        }
+
+    }
+
+
+    #image5 {
+        animation-name: arachnid;
+
+    }
+
+    @keyframes elephant {
+        0% {
+            background-image: url(./imgs/elephant1.png);
+        }
+
+        20% {
+            background-image: url(./imgs/elephant1.png);
+        }
+
+        50% {
+            background-image: url(./imgs/elephant2.png);
+        }
+
+        90% {
+            background-image: url(./imgs/elephant2.png);
+        }
+
+        100% {
+            background-image: url(./imgs/elephant1.png);
+        }
+
+    }
+    </style>
+</head>
+
+<body>
+
+
+<script>
+	
+function makeImage (i){
+	var image = document.createElement("div");
+	document.body.appendChild(image);
+	image.classList.add('images');
+	image.style.transform="rotateZ("+Math.round(Math.random()*180) +"deg)"
+	image.id="image"+i;
+
+
+		var text = document.createElement('div');
+		image.appendChild(text);
+		text.id="text"+i;
+		text.classList.add('speciesNames')
+
+		function move(){
+			image.style.left=Math.round(Math.random()*600)+"px";
+			image.style.top=Math.round(Math.random()*500)+"px";
+
+
+		};
+
+		function changeSize(){
+			image.style.width=Math.round(Math.random()*600)+"px";
+			image.style.width=Math.round(Math.random()*600)+"px";
+
+
+		}
+
+		setInterval(move, 5000)
+		setInterval(changeSize, 5000);
+	
+
+} 
+
+for (var i=0; i<30; i++){
+	makeImage(i);
+};
+
+var barnacle = document.getElementById("text0");
+barnacle.innerText="Goose Barnacle";
+
+var cuttlefish = document.getElementById("text1");
+cuttlefish.innerText="Cuttlefish";
+
+var moose = document.getElementById("text2");
+moose.innerText="Moose";
+
+
+			
+
+</script>
+</body>
+
+</html>

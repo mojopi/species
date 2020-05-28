@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--     this is the link to the font I'm using
+ -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet"> -->
+    <title>Us + Climate Change</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <!--     This is the div at the top of the screen with the quote
+ -->
+    <div id="heading">
+        <center>Our thoughts about climate change and species affected by it.</center>
+        <p style="font-family:courier;"><a>Here</a> you can see all of our collages and here you can learn about our process</p>
+    </div>
+    <!-- These are the divs that have the text that appears below the images.-->
+    <!-- This is parent div with children divs that hold the image of my face and the image of the menu/plate, which changes onclick-->
+    <div id="book">
+        <div class='container'>
+            <div class="page" id="page1">
+            </div>
+            <br>
+         <div class="lowerContainer" id="lowerContainer1">
+            <div class="spName" id="spName1"></div>
+
+            <audio id="audio1" controls></audio><br>
+            <div class='button' id='next1'>next</div><br>
+            <div class='button' id='back1'>back</div><br>
+        </div>
+        </div>
+        <div class='container'>
+            <div class="page" id="page2"></div><br>
+            <div class="lowerContainer" id="lowerContainer2">                
+                <div class="spName" id="spName2"></div>
+
+                <audio id="audio2" controls></audio><br>
+                <div class="button" id='next2'>next</div><br>
+                <div class="button" id='back2'>back</div><br>
+            </div>
+        </div>
+    </div> <!-- end of book div -->
+    <div id="mehela"></div>
+    <!-- This is where javascript begins!-->
+    <script type="text/javascript">
+    //Making a variable for each of my divs...//
+
+    var page1 = document.getElementById("page1");
+    var page2 = document.getElementById("page2");
+    var audio1 = document.getElementById("audio1");
+    var audio2 = document.getElementById("audio2");
+    var next1 = document.getElementById("next1");
+    var spName1 = document.getElementById("spName1");
+    var spName2 = document.getElementById("spName2");
+
+
+
+
+
+    // var page1SpNames = [];
+    // var page1PresentPictures = [""];
+    // var page1AbsentPictures = [""];
+
+    // var page1Audio = ["denoised_adonis_butterfly.wav"];
+
+    // var page2SpNames = [];
+    // var page2PresentPictures = ["cuttlefish2.jpg"];
+    // var page2AbsentPictures = ["cuttlefish2.jpg"];
+
+    // var page2Audio = ["cuttlefish2.jpg"];
+    
+var bigArray = [
+
+
+    {
+        name: "Adonis Butterfly",
+        presentPictureUrl: "./adonisButterfly/butterfly1.jpg",
+        absentPictureUrl: "./adonisButterfly/butterfly2.jpg",
+        audioUrl: "./adonisButterfly/adonisButterfly.wav",
+    },
+
+      {
+        name: "Great Star Coral",
+        presentPictureUrl: "./greatStarCoral/greatStarCoral1.jpg",
+        absentPictureUrl: "./greatStarCoral/greatStarCoral2.jpg",
+        audioUrl: "./greatStarCoral/greatStarCoral.wav",
+    },
+
+
+
+    {
+        name: "Dragonfly",
+        presentPictureUrl: "./dragonfly/dragonfly1.png",
+        absentPictureUrl: "./dragonfly/dragonfly2.png",
+        audioUrl: "./dragonfly/dragonfly.wav",
+    },
+
+{
+        name: "Wrights Sportive Lemur",
+        presentPictureUrl: "./wrightsSportiveLemur/wrightsSportiveLemur1.png",
+        absentPictureUrl: "./wrightsSportiveLemur/wrightsSportiveLemur2.png",
+        audioUrl: "./wrightsSportiveLemur/wrightsSportiveLemur.wav",
+    },
+
+    ];
+
+    var counter1 = -1;
+
+    next1.addEventListener("click", function() {
+        console.log("hi");
+        counter1=counter1+1;
+        page1.style.backgroundImage = "url(./species/" + bigArray[counter1].presentPictureUrl+")";
+                spName1.innerText = bigArray[counter1].name;
+
+
+        setTimeout(function(){page1.style.backgroundImage = "url(./species/" + bigArray[counter1].absentPictureUrl+")";
+
+    }, 3000);
+        audio1.src = "./species/"+bigArray[counter1].audioUrl;
+    });
+
+
+    back1.addEventListener("click", function() {
+        console.log("hi");
+        counter1=counter1-1;
+        page1.style.backgroundImage = "url(./species/" + bigArray[counter1].presentPictureUrl+")";
+                spName1.innerText = bigArray[counter1].name;
+
+
+        setTimeout(function(){page1.style.backgroundImage = "url(./species/" + bigArray[counter1].absentPictureUrl+")";
+
+    }, 3000);
+        audio1.src = "./species/"+bigArray[counter1].audioUrl;
+    });
+    </script>
+</body>
+
+</html>

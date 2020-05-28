@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    /*font-family: 'Chelsea Market', cursive;*/
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3.5vw;
+
+    font-family: 'Special Elite', cursive;
+    /*            color:darkgrey;
+*/
+}
+
+p {
+    font-family: 'Special Elite', cursive;
+    ;
+    font-size: 1.8vw;
+    color: #404040;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+}
+
+.tableOfContents {
+    text-align: center;
+    /*    background-color:purple;
+*/
+    display: inline-block;
+    position: relative;
+    font-family: 'Special Elite', cursive;
+    ;
+    font-size: .9vw;
+    width: 5vw;
+    color: #404040;
+    margin-right: 4px;
+
+    margin-bottom: 2px;
+}
+
+#section0 {
+    color: white;
+    background-image: url(./species/humansUru/humansUru1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    top: 0%;
+    animation-name: fade;
+    animation-duration: 30s;
+    transition: 0.5s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes fade {
+    0% {
+        background-image: url(./species/humansUru/humansUru1.png);
+
+
+    }
+
+    50% {
+        background-image: url(./species/humansUru/humansUru2.png);
+
+
+    }
+
+    100% {
+        background-image: url(./species/humansUru/humansUru1.png);
+
+    }
+}
+
+#section1 {
+    padding: 0%;
+    width: 94%;
+    top: 100%;
+    height: 100%;
+
+}
+
+
+#section3 {
+    top: 310%;
+    height: 3000%;
+    background-image: url(sky-1.png);
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+
+
+#section2 {
+    opacity: 1;
+    /*    background-color: purple;
+*/
+    top: 200%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(table2.png);
+
+    background-size: cover;
+    background-repeat: repeat;
+    z-index: -10;
+    padding:2%;
+}
+
+.square {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    /*    background-color:blue;
+*/
+    display: inline-block;
+    margin: 5px;
+    background-repeat: no-repeat;
+    border: 1px;
+    /*                        background-color:green;
+*/
+    transition: 2s;
+    background-size: contain;
+
+
+}
+
+.title {
+    background-color:violet;
+    position: relative;
+    margin-bottom:300px;
+    top: -10%;
+    width: 100%;
+    height: 100px;
+    font-family: 'Special Elite', cursive;
+    ;
+    font-size: 1.8vw;
+    color: #404040;
+    text-align:center;
+
+}
+
+
+
+
+
+
+.container {
+    transition:3s;
+    position: absolute;
+    top: 0%;
+    width: 50%;
+    height: 100%;
+    /*    border: 1px solid red;
+*/
+    display: inline-block;
+    position: absolute;
+}
+
+#container1 {
+    /*    background-color:white;
+*/
+    padding: 2%;
+    width: 50%;
+    height: 90%;
+    left: 0%;
+}
+
+#container2 {
+    width: 46%;
+
+    left: 54%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lowerContainer1 {
+    padding-left: 10px;
+}
+
+#lowerContainer2 {
+    padding-right: 10px;
+}
+
+.lowerContainer {
+    padding-top: 10px;
+
+    /*    top:40%;
+*/
+    width: 100%;
+    height: 40%;
+    /*    background-color: orange;
+*/
+    display: inline-block;
+    position: relative;
+}
+
+.page {
+    z-index: 10;
+
+    border-radius: 10%;
+    transition: 3s;
+    transition: ease;
+    left: 5%;
+    width: 90%;
+    height: 60%;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#page1 {
+    background-color: yellow;
+    padding-left: 12%;
+
+}
+
+
+
+#book {
+
+    width: 80%;
+    height: 80%;
+    /*        background-color: red;
+*/
+    position: relative;
+    top: -5%;
+    left: 100px;
+    background-image: url("./book.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+}
+
+
+
+#mehela {
+    z-index: 1;
+    position: absolute;
+    border: none;
+    background-image: url("./mehela.png");
+    background-size: contain;
+    width: 500px;
+    height: 30vh;
+    background-repeat: no-repeat;
+    /*        background-color: blue;
+*/
+    position: absolute;
+    /*    top: 63%;
+*/
+    left: 42%;
+    bottom: 0%;
+    /*background-color:red;
+*/
+}
+
+#heading {
+    width: 100%;
+    /*        background-color: blue;
+*/
+    z-index: 1;
+    font-size: 1.8vw;
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+.spName {
+    position: relative;
+    left: 5%;
+    text-align: left;
+    font-family: courier;
+    width: 90%;
+    font-size: 20px;
+    height: 40px;
+}
+
+#spName1 {}
+
+#spName2 {}
+
+.button {
+    display: inline-block;
+    background-color: lightblue;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    z-index: 10;
+    position: relative;
+}
+
+#next1 {
+    left: 0%;
+}
+
+#back1 {
+    left: 0%;
+}
+
+#audio1 {
+    left: 0%;
+}
+
+#audio2 {
+    position: relative;
+    left: 34%;
+}
+
+
+#next2 {
+    left: 75%;
+}
+
+#back2 {
+    left: 75%;
+}
+
+.name {
+    left: 90%;
+}
+
+.subtitle {
+    position: absolute;
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+
+
+
+}
+
+
+
+
+@media (max-device-width: 667px) {
+
+    #heading {
+        font-size: 40px;
+    }
+
+    #book {
+        top: 10%;
+        /*        background-color:blue;
+*/
+        width: 100%;
+        height: 70%;
+        background-image: url(notepad.png);
+        background-position: center;
+        left: 0px;
+        position: relative;
+    }
+
+    .page {
+        height: 70%;
+        display: inline;
+
+
+    }
+
+    .lowerContainer {
+        top: 70%;
+        height: 30%;
+    }
+
+
+    .container {
+        position: absolute;
+        top: 0%;
+        width: 45%;
+        height: 50%;
+    }
+
+
+
+    #mehela {
+        position: absolute;
+        top: 85%;
+    }
+
+
+}

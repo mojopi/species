@@ -2,221 +2,71 @@
 <html>
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Love+Ya+Like+A+Sister|Megrim|Nanum+Pen+Script|Raleway+Dots&display=swap" rel="stylesheet">
-    <title></title>
-    <style type="text/css">
-    .square1pic1 {
-        background-image: url(1.jpg);
-
-    }
-
-    .square1pic2 {
-        background-image: url(2.jpg);
-    }
-
-    .square2pic1 {
-        background-image: url(3.jpg);
-
-    }
-
-    .square2pic2 {
-        background-image: url(4.jpg);
-    }
-
-
-    .square3pic1 {
-        background-image: url(5.jpg);
-
-    }
-
-    .square3pic2 {
-        background-image: url(6.jpg);
-    }
-
-
-    .animal {
-        position: relative;
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 600px;
-        height: 450px;
-        /*background-color: red;*/
-        display: inline-block;
-        margin-bottom: 40px;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-right: 10px;
-        transition: 2s;
-
-
-        /*border stuff for polaroid
-*/
-        /*
-        border: 10px solid #fff;
-        border-bottom: 60px solid #fff;
-        -webkit-box-shadow: 3px 3px 3px #777;
-        -moz-box-shadow: 3px 3px 3px #777;
-        box-shadow: 3px 3px 3px #777;*/
-    }
-
-
-
-    .speciesName {
-
-        font-family: 'Nanum Pen Script', cursive;
-        /*      font-family: 'Cabin Sketch', cursive;
-        font-family: 'Raleway Dots', cursive;*/
-        /*        font-family: 'Megrim', cursive;
-*/
-        font-size: 30px;
-        top: 450px;
-        text-align: center;
-        width: 100%;
-        height: 40px;
-        overflow: hidden;
-        color: white;
-    }
-
-    .speciesName1Type1 {
-
-        color: rgba(255, 255, 255, 0);
-
-    }
-
-    .speciesName1Type2 {
-        transition: 2s;
-        color: rgba(0, 0, 0, 0.5);
-    }
-
-    .backgroundColor {
-        background-color: ;
-    }
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <style>
     </style>
 </head>
 
 <body>
-    <!--     <div class="animal" id="camel"></div>    
-    <div class="animal" id="koala"></div>
-    <div class="animal" id=""></div> -->
-    <script>
-    function makeSquare(i) {
-        var square = document.createElement("square");
-        document.body.appendChild(square);
-        square.classList.add('animal');
-        square.style.opacity = 1;
-        square.id = "square" + i;
-        // var audio = document.createElement("audio");
-        // square.appendChild(audio);
-        // audio.id = "audio" + i;
-        // audio.src = "./audio/audio" + i + ".m4a";
-        square.classList.add("square" + i + "pic2");
+    <section id="section0">
+        <center>
+            <h1>Species Affected By Climate Change<br>
+                A digital memorial.</h1>
+        </center>
+    </section>
+    <section id="section1">
+        <!-- <center><h1>
+                Our reflections on species loss & climate change
+                </h1></center>
+        </center> -->
+        <br><br>
+        <center style="text-align:left;">
+            <p>After the <a href="https://globalclimatestrike.net/">global climate strike</a> in 2019, a group of sixth graders, their art teachers, and a computer science teacher came together to make a digital memorial to species affected by climate change.<br>
+                <br>
+                This is our memorial so far. <br><br>
+                To make this memorial, we studied how to draw animals, how to make and mix colors, and, inspired by Matisse's collages, we made our own colors and painted papers with them. Those papers were put together in these collages to represent the species you'll see here.
+                <br><br>
+                To show what we're losing, in each depcition of a creature, there is also a depiction of its absence — just click and see.<br><br> You can hear our voices too.<br><br> Explore the digital book we made or click on the images below to see what we risk losing and <i style="font-size:2.8vw">how much there is to save.</i></p>
+        </center>
+    </section>
+    <section id="section2">
+ <center><h1 style="color:white;z-index:-10;">The Book</h1></center>
+
+        <div id="book">
+            <div id="container1"class='container'>
+                                                     
+                <!-- <div class="page" id="page1">
 
 
-        // square.style.backgroundImage='url('+i + '.jpg)';
+                </div> -->
+                <!-- <div class="lowerContainer" id="lowerContainer1">
+                    <div class="spName" id="spName1"></div>
+                    <audio id="audio1" controls></audio><br>
+                    <div class='button' id='next1'>next</div><br>
+                    <div class='button' id='back1'>back</div><br>
+                </div> -->
+            </div>
+            <div  id="container2" class='container'>
+<!--                 <div class="page" id="page2"></div><br>
+ -->                <!-- <div class="lowerContainer" id="lowerContainer2">
+                    <div class="spName" id="spName2"></div>
+                    <audio style="opacity:0" id="audio2" controls></audio><br>
+                    <div style="opacity:0" class="button" id='next2'>next</div><br>
+                    <div style="opacity:0" class="button" id='back2'>back</div><br>
+                </div> -->
+            </div>
+        </div> <!-- end of book div -->
+        <div id="mehela"></div>
+    </section>
+    <section id="section3">
+         <center><h1 style="color:black;">The Gallery</h1></center>
 
-
-
-
-
-        var speciesName = document.createElement("div");
-        square.appendChild(speciesName);
-        speciesName.style.position = "relative";
-        speciesName.id = "speciesName" + i;
-
-        speciesName.classList.add("speciesName");
-        speciesName.classList.add("backgroundColor");
-
-
-
-        // audio.controls="show";
-
-        var counter = 0;
-
-
-        square.addEventListener("click", function() {
-            counter = counter + 1;
-            console.log(counter);
-
-            // var audioID = document.getElementById("audio" + i);
-
-            if (counter % 2 == 1) {
-                console.log(counter % 2);
-                // audioID.play();
-                square.classList.remove("square" + i + "pic2");
-                square.classList.add("square" + i + "pic1");
-                speciesName.classList.add("speciesName" + i + "type1");
-                speciesName.classList.remove("speciesName" + i + "type2");
-                // clearInterval(fade);
-
-
-
-
-
-            } else if (counter % 2 == 0) {
-                console.log(counter % 2);
-                square.classList.add("square" + i + "pic2");
-                square.classList.remove("square" + i + "pic1");
-                speciesName.classList.add("speciesName" + i + "Type2");
-                speciesName.classList.remove("speciesName" + i + "Type1");
-                // clearInterval(fade);
-
-
-
-
-                // audioID.pause();
-
-
-            }
-
-        });
-
-
-    };
-
-
-
-
-
-
-    for (var i = 1; i < 4; i++) {
-        makeSquare(i);
-
-    };
-
-
-
-    function fade(i) {
-            var square = document.getElementById("square" + i);
-        square.style.opacity = square.style.square - .1;
-        console.log(square.style)
-        setInterval(fade, 1000);
-
-    }
-
-    function hmm(i) {
-        for (var i = 1; i < 4; i++) {fade(i);
-
-        }
-    };
-
-    setInterval(hmm, 1000)
-
-
-
-    // var speciesName1 = document.getElementById('speciesName1');
-    // speciesName1.innerText = "camel";
-
-    // var speciesName2 = document.getElementById('speciesName2');
-    // speciesName2.innerText = "koala";
-
-
-    // var speciesName3 = document.getElementById('speciesName3');
-    // speciesName3.innerText = "rhino";
-
-    // var aud = document.getElementById('audio1');
-    // var square1 = document.getElementById("square1");
-    // square1.addEventListener("click", function() { aud.play() });
-    </script>
+    <br><br><br><br><br><br>
+     </section>
+    <script src="array.js"></script>
+    <script src="myScript.js"></script>
 </body>
+
 
 </html>
