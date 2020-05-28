@@ -160,7 +160,7 @@ section {
     top: 0%;
     width: 50%;
     height: 100%;
-    background-image: url(phoneBook.png);
+    background-image: url(book2.png);
     background-size: cover;
     border-radius: 10%;
     border: 3px solid gold;
@@ -315,14 +315,14 @@ section {
     }
 
     .container {
-        background-image: url(phoneBook.png);
+        background-image: url(book2.png);
         background-size: cover;
         border-radius: 10%;
         border: 3px solid gold;
     }
 
     #container2 {
-        background-image: url(phoneBook.png);
+        background-image: url(book2.png);
         background-size: cover;
 
     }
