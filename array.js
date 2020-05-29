@@ -261,7 +261,7 @@ var bigArray = [
     },
 
     {
-        name: "Mexican Free Taled Bat",
+        name: "Mexican Free Tailed Bat",
         presentPictureUrl: "mexicanFreeTailedBat/mexicanFreeTailedBat1.png",
         absentPictureUrl: "mexicanFreeTailedBat/mexicanFreeTailedBat2.png",
         audioUrl: "mexicanFreeTailedBat/mexicanFreeTailedBat.wav"
