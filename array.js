@@ -1,5 +1,174 @@
 var bigArray = [
 
+
+
+   {
+        name: "TKAdelaide Bae",
+        presentPictureUrl: "2021adelaideBae/adelaideBae1.png",
+        absentPictureUrl: "2021adelaideBae/adelaideBae2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+     {
+        name: "TKAlex Moser",
+        presentPictureUrl: "2021alexMoser/alexMoser1.png",
+        absentPictureUrl: "2021alexMoser/alexMoser2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+     {
+        name: "Barenosed Wombat",
+        presentPictureUrl: "2021barenosedWombat/barenosedWombat1.png",
+        absentPictureUrl: "2021barenosedWombat/barenosedWombat2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+     {
+        name: "Black Guillamot",
+        presentPictureUrl: "2021blackGuillamot/blackGuillamot1.png",
+        absentPictureUrl: "2021blackGuillamot/blackGuillamot2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+    {
+        name: "Charlie",
+        presentPictureUrl: "2021charlie/charlie1.png",
+        absentPictureUrl: "2021charlie/charlie2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+  
+
+    {
+        name: "Chimpanzee",
+        presentPictureUrl: "2021chimpanzee/chimpanzee1.png",
+        absentPictureUrl: "2021chimpanzee/chimpanzee2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+      {
+        name: "TKfish",
+        presentPictureUrl: "2021fish/fish1.png",
+        absentPictureUrl: "2021fish/fish2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+     {
+        name: "Giant Panda",
+        presentPictureUrl: "2021giantPanda/giantPanda1.png",
+        absentPictureUrl: "2021giantPanda/giantPanda2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+    {
+        name: "Glossy Black Cockatoo",
+        presentPictureUrl: "2021glossyBlackCockatoo/glossyBlackCockatoo1.png",
+        absentPictureUrl: "2021glossyBlackCockatoo/glossyBlackCockatoo2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+
+     {
+        name: "Greater Sage Grouse",
+        presentPictureUrl: "2021greaterSageGrouse/greaterSageGrouse1.png",
+        absentPictureUrl: "2021greaterSageGrouse/greaterSageGrouse2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+     {
+        name: "Great Glider",
+        presentPictureUrl: "2021greatGlider/greatGlider1.png",
+        absentPictureUrl: "2021greatGlider/greatGlider2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+     {
+        name: "Grey Crowned Crane",
+        presentPictureUrl: "2021greyCrownedCrane/greyCrownedCrane1.png",
+        absentPictureUrl: "2021greyCrownedCrane/greyCrownedCrane2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+     {
+        name: "Hawaiian Honey Creeper",
+        presentPictureUrl: "2021hawaiianHoneyCreeper/hawaiianHoneyCreeper1.png",
+        absentPictureUrl: "2021hawaiianHoneyCreeper/hawaiianHoneyCreeper2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+      {
+        name: "Koala",
+        presentPictureUrl: "2021koala/koala1.png",
+        absentPictureUrl: "2021koala/koala2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+
+    {
+        name: "Lemuroid Ringtail Possom",
+        presentPictureUrl: "2021lemuroidRingtailPossom/lemuroidRingtailPossom1.png",
+        absentPictureUrl: "2021lemuroidRingtailPossom/lemuroidRingtailPossom2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+    {
+        name: "TKMaddie Fine",
+        presentPictureUrl: "2021maddieFine/maddieFine1.png",
+        absentPictureUrl: "2021maddieFine/maddieFine2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+    {
+        name: "TKMatt Stewart",
+        presentPictureUrl: "2021mattStewart/mattStewart1.png",
+        absentPictureUrl: "2021mattStewart/mattStewart2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+    {
+        name: "Platypus",
+        presentPictureUrl: "2021platypus/platypus1.png",
+        absentPictureUrl: "2021platypus/platypus2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+    {
+        name: "TKSea Turtle",
+        presentPictureUrl: "2021seaTurtle/seaTurtle1.png",
+        absentPictureUrl: "2021seaTurtle/seaTurtle2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+
+   
+
+
+    {
+        name: "Summer Flounder",
+        presentPictureUrl: "2021summerFlounder/summerFlounder1.png",
+        absentPictureUrl: "2021summerFlounder/summerFlounder2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+ {
+        name: "Togo Slippery Frog",
+        presentPictureUrl: "2021togoSlipperyFrog/togoSlipperyFrog1.png",
+        absentPictureUrl: "2021togoSlipperyFrog/togoSlipperyFrog2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+     {
+        name: "Toucan",
+        presentPictureUrl: "2021toucan/toucan1.png",
+        absentPictureUrl: "2021toucan/toucan2.png"
+        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    },
+
+
+
+
+
+
     {
         name: "Adelie Penguin",
         presentPictureUrl: "adeliePenguin/adeliePenguin1.png",
@@ -484,6 +653,7 @@ function makeSquare(x) {
     square.classList.add('square');
     square.id = "square" + x;
     square.style.marginBottom = "100px";
+    square.style.backgroundPosition = "center";
 
 
 
