@@ -3,14 +3,14 @@ var bigArray = [
 
 
    {
-        name: "TKAdelaide Bae",
+        name: "Adelaide Bae",
         presentPictureUrl: "2021adelaideBae/adelaideBae1.png",
         absentPictureUrl: "2021adelaideBae/adelaideBae2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
      {
-        name: "TKAlex Moser",
+        name: "Alex Moser",
         presentPictureUrl: "2021alexMoser/alexMoser1.png",
         absentPictureUrl: "2021alexMoser/alexMoser2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
