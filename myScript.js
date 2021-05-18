@@ -92,6 +92,6 @@ container2.addEventListener("click", function() {
 
 
 
-for (var i = 0; i < 64; i++) {
+for (var i = 0; i < 100; i++) {
     tableOfContents(i)
 };

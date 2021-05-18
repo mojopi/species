@@ -1,29 +1,189 @@
 var bigArray = [
 
 
+{
+        name: "Amir",
+        presentPictureUrl: "2021amir/amir1.png",
+        absentPictureUrl: "2021amir/amir2.png"
+        // audioUrl: "2021hispaniolllanSolendon/hispaniolllanSolendon.m4a"
+    },
 
-   {
-        name: "Adelaide Bae",
-        presentPictureUrl: "2021adelaideBae/adelaideBae1.png",
-        absentPictureUrl: "2021adelaideBae/adelaideBae2.png"
+{
+        name: "Myers Surinam Toad",
+        presentPictureUrl: "2021myersSurinamToad/myersSurinamToad1.jpg",
+        absentPictureUrl: "2021myersSurinamToad/myersSurinamToad2.jpg"
+        // audioUrl: "2021hispaniolllanSolendon/hispaniolllanSolendon.m4a"
+    },
+
+
+
+{
+        name: "South Island Kokako",
+        presentPictureUrl: "2021southIslandKokako/southIslandKokako1.jpg",
+        absentPictureUrl: "2021southIslandKokako/southIslandKokako2.png"
+        // audioUrl: "2021hispaniolllanSolendon/hispaniolllanSolendon.m4a"
+    },
+
+
+{
+        name: "Kagu",
+        presentPictureUrl: "2021kagu/kagu1.jpg",
+        absentPictureUrl: "2021kagu/kagu2.jpg"
+        // audioUrl: "2021hispaniolllanSolendon/hispaniolllanSolendon.m4a"
+    },
+{
+        name: "Hispaniollan Solendon",
+        presentPictureUrl: "2021hispaniollanSolendon/hispaniollanSolendon1.jpg",
+        absentPictureUrl: "2021hispaniollanSolendon/hispaniollanSolendon2.jpg"
+        // audioUrl: "2021hispaniolllanSolendon/hispaniolllanSolendon.m4a"
+    },
+
+
+
+ {
+        name: "Kirthisinghe's Rock Frog",
+        presentPictureUrl: "2021kirthisingheRockFrog/kirthisingheRockFrog1.jpg",
+        absentPictureUrl: "2021kirthisingheRockFrog/kirthisingheRockFrog2.jpg",
+        audioUrl: "2021kirthisingheRockFrog/kirthisingheRockFrog.m4a"
+    },
+
+ {
+        name: "Whale Shark",
+        presentPictureUrl: "2021whaleShark/whaleShark1.jpg",
+        absentPictureUrl: "2021whaleShark/whaleShark2.jpg",
+        audioUrl: "2021whaleShark/whaleShark.m4a"
+    },
+
+
+    {
+        name: "Giant Ibis",
+        presentPictureUrl: "2021giantIbis/giantIbis1.png",
+        absentPictureUrl: "2021giantIbis/giantIbis2.png",
+        audioUrl: "2021giantIbis/giantIbis.m4a"
+    },
+
+
+    {
+        name: "Mountain Pygmy Possom",
+        presentPictureUrl: "2021mountainPygmyPossom/mountainPygmyPossom1.png",
+        absentPictureUrl: "2021mountainPygmyPossom/mountainPygmyPossom2.png",
+        audioUrl: "2021mountainPygmyPossom/mountainPygmyPossom.m4a"
+    },
+
+
+
+
+
+
+    {
+        name: "Rondo Dwarf Dologo",
+        presentPictureUrl: "2021rondoDwarfDologo/rondoDwarfDologo1.jpg",
+        absentPictureUrl: "2021rondoDwarfDologo/rondoDwarfDologo2.jpg",
+        audioUrl: "2021rondoDwarfDologo/rondoDwarfDologo.m4a"
+    },
+
+
+    {
+        name: "Pygmy Three-Toed Sloth",
+        presentPictureUrl: "2021pygmyThreeToedSloth/pygmyThreeToedSloth1.jpg",
+        absentPictureUrl: "2021pygmyThreeToedSloth/pygmyThreeToedSloth2.png",
+        audioUrl: "2021pygmyThreeToedSloth/pygmyThreeToedSloth.m4a"
+    },
+
+
+    {
+        name: "California Condor",
+        presentPictureUrl: "2021californiaCondor/californiaCondor1.jpg",
+        absentPictureUrl: "2021californiaCondor/californiaCondor2.jpg",
+        audioUrl: "2021californiaCondor/californiaCondor2.wav"
+    },
+
+
+    {
+        name: "Red Stumpnose Seabream",
+        presentPictureUrl: "2021redStumpnoseSeabream/redStumpnoseSeabream1.jpg",
+        absentPictureUrl: "2021redStumpnoseSeabream/redStumpnoseSeabream2.jpg",
+        audioUrl: "2021redStumpnoseSeabream/redStumpnoseSeabream2.wav"
+    },
+
+
+
+    {
+        name: "Central American River Turtle",
+        presentPictureUrl: "2021centralAmericanRiverTurtle/centralAmericanRiverTurtle1.png",
+        absentPictureUrl: "2021centralAmericanRiverTurtle/centralAmericanRiverTurtle2.png",
+        audioUrl: "2021centralAmericanRiverTurtle/centralAmericanRiverTurtle2.wav"
+    },
+
+
+    {
+        name: "Cave Splayfoot Salamander",
+        presentPictureUrl: "2021caveSplayfootSalamander/caveSplayfootSalamander1.jpg",
+        absentPictureUrl: "2021caveSplayfootSalamander/caveSplayfootSalamander2.jpg",
+        audioUrl: "2021caveSplayfootSalamander/caveSplayfootSalamander.wav"
+    },
+
+    {
+        name: "Dugong",
+        presentPictureUrl: "2021dugong/dugong1.jpg",
+        absentPictureUrl: "2021dugong/dugong2.jpg",
+        audioUrl: "2021dugong/dugong.wav"
+    },
+
+    {
+        name: "Plains Wanderer",
+        presentPictureUrl: "2021plainsWanderer/plainsWanderer1.png",
+        absentPictureUrl: "2021plainsWanderer/plainsWanderer2.png",
+        audioUrl: "2021plainsWanderer/plainsWanderer.m4a"
+    },
+
+    {
+        name: "Green Sawfish",
+        presentPictureUrl: "2021greenSawfish/greenSawfish1.png",
+        // absentPictureUrl: "2021greenSawfish/largeToothedSawfish2.jpg"
+        audioUrl: "2021greenSawfish/greenSawfish.m4a"
+    },
+
+
+
+
+    {
+        name: "Large-Toothed Sawfish",
+        presentPictureUrl: "2021largeToothedSawfish/largeToothedSawfish1.jpg",
+        absentPictureUrl: "2021largeToothedSawfish/largeToothedSawfish2.jpg",
+        audioUrl: "2021largeToothedSawfish/largeToothedSawfish.m4a"
+    },
+
+
+    {
+        name: "Cuban Solenodon",
+        presentPictureUrl: "2021cubanSolenodon/cubanSolenodon1.jpg",
+        absentPictureUrl: "2021cubanSolenodon/cubanSolenodon2.jpg",
+        audioUrl: "2021cubanSolenodon/cubanSolenodon.m4a"
+    },
+
+    {
+        name: "Eastern Brook Trout",
+        presentPictureUrl: "2021easternBrookTrout/easternBrookTrout1.png",
+        absentPictureUrl: "2021easternBrookTrout/easternBrookTrout2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-     {
+    {
         name: "Alex Moser",
         presentPictureUrl: "2021alexMoser/alexMoser1.png",
         absentPictureUrl: "2021alexMoser/alexMoser2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-     {
+    {
         name: "Barenosed Wombat",
         presentPictureUrl: "2021barenosedWombat/barenosedWombat1.png",
         absentPictureUrl: "2021barenosedWombat/barenosedWombat2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-     {
+    {
         name: "Black Guillamot",
         presentPictureUrl: "2021blackGuillamot/blackGuillamot1.png",
         absentPictureUrl: "2021blackGuillamot/blackGuillamot2.png"
@@ -37,7 +197,7 @@ var bigArray = [
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-  
+
 
     {
         name: "Chimpanzee",
@@ -46,14 +206,14 @@ var bigArray = [
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-      {
-        name: "TKfish",
-        presentPictureUrl: "2021fish/fish1.png",
-        absentPictureUrl: "2021fish/fish2.png"
-        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+    {
+        name: "Damsel Fish",
+        presentPictureUrl: "2021damselFish/damselFish1.png",
+        absentPictureUrl: "2021damselFish/damselFish2.png",
+        audioUrl: "2021damselFish/damselfish.m4a"
     },
 
-     {
+    {
         name: "Giant Panda",
         presentPictureUrl: "2021giantPanda/giantPanda1.png",
         absentPictureUrl: "2021giantPanda/giantPanda2.png"
@@ -63,40 +223,40 @@ var bigArray = [
     {
         name: "Glossy Black Cockatoo",
         presentPictureUrl: "2021glossyBlackCockatoo/glossyBlackCockatoo1.png",
-        absentPictureUrl: "2021glossyBlackCockatoo/glossyBlackCockatoo2.png"
-        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+        absentPictureUrl: "2021glossyBlackCockatoo/glossyBlackCockatoo2.png",
+        audioUrl: "2021glossbyBlackCocckatoo/glossbyBlackCocckatoo.m4a"
     },
 
 
-     {
+    {
         name: "Greater Sage Grouse",
         presentPictureUrl: "2021greaterSageGrouse/greaterSageGrouse1.png",
-        absentPictureUrl: "2021greaterSageGrouse/greaterSageGrouse2.png"
-        // audioUrl: "adeliePenguin/adeliePenguin.wav"
+        absentPictureUrl: "2021greaterSageGrouse/greaterSageGrouse2.png",
+        audioUrl: "2021greaterSageGrouse/greaterSageGrouse.m4a"
     },
 
-     {
+    {
         name: "Great Glider",
         presentPictureUrl: "2021greatGlider/greatGlider1.png",
         absentPictureUrl: "2021greatGlider/greatGlider2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-     {
+    {
         name: "Grey Crowned Crane",
         presentPictureUrl: "2021greyCrownedCrane/greyCrownedCrane1.png",
         absentPictureUrl: "2021greyCrownedCrane/greyCrownedCrane2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-     {
+    {
         name: "Hawaiian Honey Creeper",
         presentPictureUrl: "2021hawaiianHoneyCreeper/hawaiianHoneyCreeper1.png",
         absentPictureUrl: "2021hawaiianHoneyCreeper/hawaiianHoneyCreeper2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-      {
+    {
         name: "Koala",
         presentPictureUrl: "2021koala/koala1.png",
         absentPictureUrl: "2021koala/koala2.png"
@@ -140,7 +300,7 @@ var bigArray = [
     },
 
 
-   
+
 
 
     {
@@ -150,14 +310,14 @@ var bigArray = [
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
- {
+    {
         name: "Togo Slippery Frog",
         presentPictureUrl: "2021togoSlipperyFrog/togoSlipperyFrog1.png",
         absentPictureUrl: "2021togoSlipperyFrog/togoSlipperyFrog2.png"
         // audioUrl: "adeliePenguin/adeliePenguin.wav"
     },
 
-     {
+    {
         name: "Toucan",
         presentPictureUrl: "2021toucan/toucan1.png",
         absentPictureUrl: "2021toucan/toucan2.png"
@@ -685,18 +845,18 @@ function makeSquare(x) {
 
 
 
-    var count=0;
+    var count = 0;
 
     square.addEventListener('click', function() {
-        count = count+1;
-    if (count % 2 == 1) {square.style.backgroundImage = "url(./species/" + bigArray[x].absentPictureUrl + ")";} 
-    else if (count % 2 == 0) {
-         square.style.trasition="2s";
-         square.style.backgroundImage = "url(./species/" + bigArray[x].presentPictureUrl + ")";
+        count = count + 1;
+        if (count % 2 == 1) { square.style.backgroundImage = "url(./species/" + bigArray[x].absentPictureUrl + ")"; } else if (count % 2 == 0) {
+            square.style.trasition = "2s";
+            square.style.backgroundImage = "url(./species/" + bigArray[x].presentPictureUrl + ")";
 
-}});
+        }
+    });
 
 };
 
 
-    for (var i = 0; i < 100; i++) { makeSquare(i); }
+for (var i = 0; i < 100; i++) { makeSquare(i); }
